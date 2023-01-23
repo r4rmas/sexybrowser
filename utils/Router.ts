@@ -1,8 +1,8 @@
-// import React from "react"
 import { createBrowserRouter } from "react-router-dom"
 import Home from "../src/screens/Home"
 import Plans from "../src/screens/Plans"
 import Downloading from "../src/screens/Downloading"
+import SuscriptionForm from "../src/screens/SuscriptionForm"
 
 const Router = createBrowserRouter([
   {
@@ -10,11 +10,15 @@ const Router = createBrowserRouter([
     element: Home(),
   },
   {
-    path: "/planes",
+    path: "/plans",
     element: Plans(),
   },
   {
-    path: "/descargando",
+    path: "/suscription",
+    element: SuscriptionForm()
+  },
+  {
+    path: "/download",
     element: Downloading(),
   },
 ])

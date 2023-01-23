@@ -1,17 +1,19 @@
 const Feature: FeatureInterface = {
-  workstations: "Organiza tus pestañas en espacios de trabajo",
-  splitpages: "Aumenta tu productividad y navega en dos sitios a la vez, ¡en la misma ventana!",
-  adblock: "Protege tu privacidad con nuestro bloqueador de publicidad integrado",
-  chromextensions: "¡Totalmente compatible con extensiones Chrome!",
-  sync: "Sincronízalo todo entre tus dispositivos",
-  tor: "Navega privadamente en la red Tor",
+  cloud: "Deje que una supercomputadora se encargue del trabajo pesado.",
+  adblock: "Elimine la publicidad con nuestro bloqueador de publicidad integrado.",
+  sync: "Sincronice todo entre tus dispositivos.",
+  workstations: "Organice sus pestañas en espacios de trabajo.",
+  splitpages: "Aumente su productividad y navegue en dos sitios a la vez, ¡en la misma ventana!",
+  chromeextensions: "¡Totalmente compatible con extensiones Chrome!",
+  tor: "Navegue privadamente en la red Tor.",
 }
 
 export interface FeatureInterface {
+  cloud: string,
   workstations: string,
   splitpages: string,
   adblock: string,
-  chromextensions: string,
+  chromeextensions: string,
   sync: string,
   tor: string
 }

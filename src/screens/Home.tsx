@@ -11,7 +11,7 @@ function Home() {
           <Text fontWeight="bold">Sexy Browser</Text>
         </Flex>
         <Flex mb="2rem">
-          <Text color="gray.400" fontWeight="extrabold" fontSize="2rem">
+          <Text color="gray.600" fontWeight="extrabold" fontSize="2rem">
             Un nuevo navegador que trabaja más rápido ⚡️
           </Text>
         </Flex>
@@ -37,10 +37,10 @@ function Home() {
           </Flex>
         </Flex>
         <Flex direction="column" width="15rem" alignItems="center">
-          <Link to="/planes" style={{ width: "100%", marginBottom: ".4rem" }}>
+          <Link to="/plans" style={{ width: "100%", marginBottom: ".4rem" }}>
             <Button
-              background="orange.200"
-              _hover={{ background: "orange.300" }}
+              background="orange.300"
+              _hover={{ background: "orange.200" }}
               width="100%"
             >
               <Image src={URL.downloadIcon} width="16px" mr="1rem" />
