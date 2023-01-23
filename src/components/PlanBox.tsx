@@ -55,7 +55,7 @@ interface PlanBoxProps {
   planName: string
   price: number
   color: string
-  featureNotValidIndexes?: [keyof FeatureInterface]
+  featureNotValidIndexes?: string[]
 }
 
 export default PlanBox
