@@ -25,7 +25,7 @@ function PlanBox({ planName, price, color, featureNotValidIndexes }: PlanBoxProp
       </Flex>
       <Flex direction="column" py="2rem" px="1rem" fontSize="1.1rem">
         {Object.keys(Feature).map((key) => (
-          <Flex mb="1rem">
+          <Flex key={key} mb="1rem">
             <Text mr="1rem">
               {featureNotValidIndexes?.includes(key as keyof FeatureInterface)
                 ? "❌"

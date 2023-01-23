@@ -12,6 +12,7 @@ function Plans() {
           fontWeight="extrabold"
           fontSize="2rem"
           color="gray.600"
+          mt="2rem"
           mb="4rem"
         >
           ¡Elige el plan que más te guste!
