@@ -35,18 +35,18 @@ function PlanBox({ planName, price, color, featureNotValidIndexes }: PlanBoxProp
           </Flex>
         ))}
       </Flex>
-      <Flex
-        bg={color}
-        justifyContent="center"
-        p="1rem"
-        letterSpacing=".1rem"
-        fontWeight="semibold"
-        _hover={{ bg: getAccentedColor(), cursor: "pointer" }}
-      >
-        <Link to="/suscription">
+      <Link to="/suscription">
+        <Flex
+          bg={color}
+          justifyContent="center"
+          p="1rem"
+          letterSpacing=".1rem"
+          fontWeight="semibold"
+          _hover={{ bg: getAccentedColor(), cursor: "pointer" }}
+        >
           <Text>Comprar por ${price}/mes</Text>
-        </Link>
-      </Flex>
+        </Flex>
+      </Link>
     </Flex>
   )
 }

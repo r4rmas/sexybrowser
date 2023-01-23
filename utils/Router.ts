@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"
 import Home from "../src/screens/Home"
 import Plans from "../src/screens/Plans"
-import Downloading from "../src/screens/Downloading"
+import Download from "../src/screens/Download"
 import SuscriptionForm from "../src/screens/SuscriptionForm"
 
 const Router = createBrowserRouter([
@@ -19,7 +19,7 @@ const Router = createBrowserRouter([
   },
   {
     path: "/download",
-    element: Downloading(),
+    element: Download(),
   },
 ])
 
